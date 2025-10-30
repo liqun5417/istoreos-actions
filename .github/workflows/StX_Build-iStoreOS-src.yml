@@ -175,11 +175,11 @@ on:
         default: "6.1.y"
         type: choice
         options:
-          - 5.10.y
           - 5.15.y
           - 6.1.y
           - 6.6.y
           - 6.12.y
+          - 6.12.47
       auto_kernel:
         description: "自动使用最新内核"
         required: false
