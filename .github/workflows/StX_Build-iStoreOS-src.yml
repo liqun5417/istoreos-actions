@@ -170,7 +170,7 @@ on:
           - zk-r39a
           - zysj
       openwrt_kernel:
-        description: "请选择内核版本（若未匹配则自动）"
+        description: "请选择内核版本"
         required: true
         default: "6.1.y"
         type: choice
