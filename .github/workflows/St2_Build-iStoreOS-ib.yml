@@ -187,14 +187,14 @@ on:
         default: true
         type: boolean
       openwrt_rootfs:
-        description: "请选择Rootfs通用底包（先确保step1有生成）"
+        description: "请选择Rootfs通用底包（先确保St1有生成）"
         required: true
         default: "RELEASE"
         type: choice
         options:
           - RELEASE
       network_settings:
-        description: "请选择初始网络配置（先确保step1有生成）"
+        description: "请选择初始网络配置（先确保St1有生成）"
         required: true
         default: "dhcp"
         type: choice
