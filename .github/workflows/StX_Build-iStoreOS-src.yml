@@ -6,10 +6,10 @@ on:
       openwrt_board:
         description: "请选择设备型号"
         required: true
-        default: "dg3399_tn3399"
+        default: "dg3399_tn3399_s905d"
         type: choice
         options:
-          - dg3399_tn3399
+          - dg3399_tn3399_s905d
           - a311d
           - a311d-oes
           - alark35-3500
